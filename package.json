@@ -1,0 +1,21 @@
+{
+  "name": "spawn-monitor",
+  "version": "1.0.0",
+  "description": "A tiny little library for spawning up a forever-monitor while outputting color coded and time-stampped logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^5.8.25",
+    "chalk": "^1.1.1",
+    "forever-monitor": "^1.7.0",
+    "moment": "^2.10.6",
+    "pad": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
