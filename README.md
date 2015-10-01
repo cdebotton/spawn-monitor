@@ -5,19 +5,19 @@ A tiny little library for spawning up a forever-monitor while outputting color c
 ## usage
 
 ```javascript
-import monitor from 'spawn-monitor';
+import {createMonitor} from 'spawn-monitor';
 
-monitor({
+createMonitor({
   script: './scripts/server',
   key: 'webserver',
 });
 
-monitor({
+createMonitor({
   script: './scripts/dev-server',
   key: 'webpack',
 });
 
-monitor({
+createMonitor({
   script: './scripts/graphql',
   key: 'graphql',
 });
