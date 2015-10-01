@@ -2,7 +2,7 @@
   "name": "spawn-monitor",
   "version": "1.1.1",
   "description": "A tiny little library for spawning up a forever-monitor while outputting color coded and time-stampped logs.",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "scripts/build",
